@@ -1,0 +1,14 @@
+.wrapper{
+ background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .7)), url('./assets/india-palace-tunnel-view.jpg');
+ height: 100vh;
+background-position: center;
+background-size: cover; 
+}
+.prev, .next{
+  color: #fff;
+  font-size: 50px;
+  cursor: pointer;
+  margin: 0 10px;
+background-color:  rgba(0, 0, 0, .7);
+}
+

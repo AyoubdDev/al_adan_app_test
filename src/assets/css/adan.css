@@ -1,0 +1,44 @@
+.adan-container {
+     background: #282c34;
+     color: #ffffff;
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   .header {
+     display: flex;
+     align-items: center;
+     margin-bottom: 20px;
+   }
+   .location, .date-text {
+     font-size: 1.2rem;
+     margin: 5px 5px;
+   }
+   .icon-btn {
+     cursor: pointer;
+     font-size: 1.5rem;
+     transition: transform 0.2s ease;
+   }
+   .icon-btn:hover {
+     transform: scale(1.2);
+     color: #ffca28;
+   }
+   .next-prayer {
+     font-size: 1.5rem;
+     color: #ffca28;
+     margin-bottom: 15px;
+   }
+   .list-group-item {
+     background-color: rgba(255, 255, 255, 0.1);
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     color: #fff;
+   }
+   .prayer-time strong {
+     color: #ffca28;
+   }
+   .loading-text {
+     font-size: 1.2rem;
+     text-align: center;
+     padding: 20px;
+   }
