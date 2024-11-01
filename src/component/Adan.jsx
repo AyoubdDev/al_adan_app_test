@@ -159,11 +159,12 @@ export const Adan = () => {
           {todayPrayerTimes ? (
             <div className="prayer-info">
               <ul className="list-group">
-                <li className="list-group-item prayer-time d-flex justify-content-between"><strong>Fajr</strong>  <span> {getTime(todayPrayerTimes.Fajr)} </span></li>
-                <li className="list-group-item prayer-time d-flex justify-content-between"><strong>Dhuhr</strong> <span>  {getTime(todayPrayerTimes.Dhuhr)} </span></li>
-                <li className="list-group-item prayer-time d-flex justify-content-between"><strong>Asr</strong>  <span> {getTime(todayPrayerTimes.Asr)}</span></li>
-                <li className="list-group-item prayer-time d-flex justify-content-between"><strong>Maghrib</strong>  <span> {getTime(todayPrayerTimes.Maghrib)}</span></li>
-                <li className="list-group-item prayer-time d-flex justify-content-between"><strong>Isha</strong>  <span> {getTime(todayPrayerTimes.Isha)}</span></li>
+                <li className="list-group-item prayer-time d-flex justify-content-between listPrayer"><strong>Fajr</strong>  <span> {getTime(todayPrayerTimes.Fajr)} </span></li>
+                <li className="list-group-item prayer-time d-flex justify-content-between listPrayer"><strong>Chorouq</strong>  <span> {getTime(todayPrayerTimes?.Sunrise)} </span></li>
+                <li className="list-group-item prayer-time d-flex justify-content-between listPrayer"><strong>Dhuhr</strong> <span>  {getTime(todayPrayerTimes.Dhuhr)} </span></li>
+                <li className="list-group-item prayer-time d-flex justify-content-between listPrayer"><strong>Asr</strong>  <span> {getTime(todayPrayerTimes.Asr)}</span></li>
+                <li className="list-group-item prayer-time d-flex justify-content-between listPrayer"><strong>Maghrib</strong>  <span> {getTime(todayPrayerTimes.Maghrib)}</span></li>
+                <li className="list-group-item prayer-time d-flex justify-content-between listPrayer"><strong>Isha</strong>  <span> {getTime(todayPrayerTimes.Isha)}</span></li>
               </ul>
             </div>
           ) : (
@@ -171,6 +172,8 @@ export const Adan = () => {
           )}
         </div>
       </section>
+        {/* Styles */}
+    
 
    
     </React.Fragment>
