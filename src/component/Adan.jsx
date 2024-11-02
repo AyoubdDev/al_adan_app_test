@@ -48,7 +48,7 @@ export const Adan = () => {
 
   useEffect(() => {
     const fetchPrayerData = () => {
-      const url = `${import.meta.env.VITE_API_URL}?latitude=${location.lat}&longitude=${location.long}&method=2&month=${month}&year=${year}`;
+      const url = `/test_app_adan/calendar?latitude=${location.lat}&longitude=${location.long}&method=2&month=${month}&year=${year}`;
       fetch(url)
         .then((response) => response.json())
         .then((data) => {
